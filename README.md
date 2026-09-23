@@ -1,27 +1,27 @@
 # ivanrp14.github.io
 
-Sitio publicado en **GitHub Pages**. El repositorio contiene el resultado de un build de Vite, no el código fuente.
+The site published on **GitHub Pages**. This repository contains a Vite build output, not the source.
 
-## Qué hay
+## What's here
 
 ```
-index.html                          # entrada; el <title> sigue siendo "Vite + React"
-assets/index-*.js                   # JavaScript ya empaquetado
-assets/index-*.css                  # CSS ya empaquetado
-images/                             # imágenes estáticas
+index.html                          # entry; the <title> is still "Vite + React"
+assets/index-*.js                   # bundled JavaScript
+assets/index-*.css                  # bundled CSS
+images/                             # static images
 vite.svg
 ```
 
-No hay `package.json` ni carpeta `src`. Para cambiar textos o secciones hay que reconstruir desde el proyecto fuente y volver a copiar `index.html` y `assets/`.
+There is no `package.json` and no `src` folder. To change copy or sections, rebuild from the source project and copy `index.html` and `assets/` back.
 
-El portfolio en React con las secciones y los idiomas está en el repositorio privado `portfolio`.
+The React portfolio with sections and languages is in the private `portfolio` repository.
 
-## Cómo se ve en local
+## How to view it locally
 
-Cualquier servidor estático sobre esta carpeta vale. Por ejemplo, con Node:
+Any static server over this folder works. For example, with Node:
 
 ```bash
 npx serve .
 ```
 
-En GitHub, el sitio sale de la rama `main` (o de la rama que Pages tenga configurada) en la raíz del repo.
+On GitHub, the site is served from the `main` branch (or whichever branch Pages is set to) at the repo root.
